@@ -12,6 +12,7 @@ namespace SendTweet
 {
       /// <summary>
     /// Es una clase para consumir el APi de Twitter
+    /// desarrollada en Digital Strategy
     /// </summary>
     public class SendTweet
     {

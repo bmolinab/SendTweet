@@ -4,6 +4,23 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <Company>Digital Strategy</Company>
     <Authors>Brian Molina</Authors>
+    <Description>Nuget para enviar tweets con imagenes</Description>
+    <RepositoryUrl>https://github.com/bmolinab/SendTweet</RepositoryUrl>
+    <PackageTags>Twitter, Enviar, Send, Tweet</PackageTags>
+    <PackageReleaseNotes />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/bmolinab/SendTweet</PackageProjectUrl>
+    <Copyright></Copyright>
+    <PackageIconUrl>https://scontent.fuio1-1.fna.fbcdn.net/v/t1.0-9/15966013_176934256120990_4149992798005534151_n.png?oh=adbb2455719e6a46804813b530898e7a&amp;oe=5B238EAA</PackageIconUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\SendTweet.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\SendTweet.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
